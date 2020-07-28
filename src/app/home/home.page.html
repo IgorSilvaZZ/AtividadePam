@@ -1,0 +1,25 @@
+<ion-content [fullscreen]="true">
+  <body id="telaLogin">
+    <main id="formLogin">
+      <p id="textoLogin">Faça o login para continuar</p>
+      <div id="divLogin">
+        <ion-icon name="person-circle-outline" id="icon"></ion-icon>
+        <ion-input type="text" id="txtLogin" [(ngModel)]="email" placeholder="seulemail@exemplo.com"></ion-input>
+      </div>
+<br>
+      <div id="divSenha">
+        <ion-icon name="lock-open-outline" id="iconSenha"></ion-icon>
+        <ion-input type="password" [(ngModel)]="password" id="txtLogin" placeholder="senha"></ion-input>
+      </div>
+      <div id="esqueceuSenha">
+        <a>esqueceu sua senha?</a>
+      </div>
+<br>
+    </main>
+    <main id="btnPosition">
+      <ion-button expand="block" disableButton color="transparent" (click)="Registrar()" id="btnLogin">Login</ion-button>
+    </main>
+<br>
+      <p id="textoCadastro">Não tem uma conta? <a>Cadastre-se</a></p>
+  </body>
+</ion-content>

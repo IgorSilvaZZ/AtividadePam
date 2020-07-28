@@ -1,0 +1,89 @@
+#telaLogin{
+  background-image: url(/assets/modelo1AppServicos2.png);
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  margin: auto;
+}
+
+#textoLogin{
+  color: #989898;
+  font-size: 24px;
+  text-align: center;
+}
+
+#formLogin{
+  padding-top: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#btnPosition{
+  padding-top: 20%;
+}
+
+#divLogin{
+  background-color:#e6e6e6;
+  border:solid 2px #6aed4c;
+  border-radius:50px;
+  width: 320px;
+  height:35px;
+  margin: auto;
+}
+
+#divSenha{
+  background-color:#e6e6e6;
+  border-radius:50px;
+  width: 320px;
+  height:35px;
+  margin: auto;
+}
+
+#icon{
+  color: #989898;
+  padding-left: 5px;
+  width: 31px;
+  height: 31px;
+  float:left;
+}
+
+#iconSenha{
+  color: #989898;
+  padding-left: 5px;
+  padding-top: 3px;
+  width: 28px;
+  height: 28px;
+  float:left;
+}
+ 
+#txtLogin{
+  background-color:transparent;
+  color: #989898;
+  padding-top: 7px;
+  padding-left: 7px;
+  border:none;
+  width: 85%;
+}
+
+#esqueceuSenha{
+  text-align: end;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+
+a{
+  color: #6aed4c;
+}
+
+#btnLogin{
+  margin: auto;
+  border-radius: 50px;
+  background-color: #6aed4c;
+  color: white;
+  width: 120px;
+}
+
+#textoCadastro{
+  text-align: center;
+  color: #989898;
+}
